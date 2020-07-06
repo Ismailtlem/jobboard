@@ -1,19 +1,5 @@
 import React from "react";
-/*{
-    "id": 3,
-    "company": "Account",
-    "logo": "./images/account.svg",
-    "new": true,
-    "featured": false,
-    "position": "Junior Frontend Developer",
-    "role": "Frontend",
-    "level": "Junior",
-    "postedAt": "2d ago",
-    "contract": "Part Time",
-    "location": "USA Only",
-    "languages": ["JavaScript"],
-    "tools": ["React", "Sass"]
-  }, */
+
 const JobBoardComponent = ({ job }) => {
   const tags = [job.role, job.level];
   if (job.languages) {
