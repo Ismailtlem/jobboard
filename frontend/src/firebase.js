@@ -1,7 +1,7 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyDzEpb2rZaylxFwemtlGn_n-3gqHLtsRtU",
+  apiKey: "API_KEY",
   authDomain: "joblisting-b53d5.firebaseapp.com",
   databaseURL: "https://joblisting-b53d5.firebaseio.com",
   projectId: "joblisting-b53d5",
