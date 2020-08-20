@@ -14,21 +14,7 @@
     "languages": ["HTML", "CSS", "JavaScript"],
     "tools": []
   },
-  {
-    "id": 2,
-    "company": "Atos",
-    "logo": "https://lh3.googleusercontent.com/proxy/O6dKWlndgQgO08c6HDE-ki0yD73GknvVlN8VL3DDDmv3E0VxQFnPyntUUcsLK4sGQaWQYxmBremGdN7WDjKy_9WyWkwWcg4Od6B8xveN45blI6TBsAqqiKFAu-QmtrhkBViTXBcnZfccE-Jz0iC9OHmFBHoE",
-    "isNew": true,
-    "featured": true,
-    "position": "Fullstack Developer",
-    "role": "Fullstack",
-    "level": "Midweight",
-    "postedAt": "1d ago",
-    "contract": "Part Time",
-    "location": "Paris",
-    "languages": ["Python"],
-    "tools": ["React"]
-  },
+ 
   {
     "id": 3,
     "company": "Account",
