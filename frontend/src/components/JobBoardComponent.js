@@ -12,9 +12,17 @@ const JobBoardComponent = ({ job }) => {
   return (
     <div className="flex bg-white shadow-lg m-4 p-6 rounded">
       <div>
-        <img src={job.logo} alt={job.company} className="logo" />
+        <img
+          data-testid="company-logo"
+          src={job.logo}
+          alt={job.company}
+          className="logo"
+        />
       </div>
-      <div className="flex flex-col justify-between ml-4">
+      <div
+        data-testid="job-details"
+        className="flex flex-col justify-between ml-4"
+      >
         <h3 className="font-bold text-blue-500">
           {job.company}
           {job.isNew && (

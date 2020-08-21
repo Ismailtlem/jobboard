@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import JobBoardComponent from "./components/JobBoardComponent";
 import data from "./assets/data.json";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   const [jobs, setJobs] = useState([]);
@@ -10,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="text-6xl">Job board</h1>
-
+      <SearchBar />;
       {jobs.length === 0 ? (
         <p>Jobs are fetching ...</p>
       ) : (
