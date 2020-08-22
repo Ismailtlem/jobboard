@@ -10,7 +10,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h1 className="text-6xl">Job board</h1>
+      <h1 className="text-6xl"></h1>
       <SearchBar />;
       {jobs.length === 0 ? (
         <p>Jobs are fetching ...</p>
