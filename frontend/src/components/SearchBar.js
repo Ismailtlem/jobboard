@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 
-function SearchBar() {
-  const [term, setSearchTerm] = useState([]);
-  const handleChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
-
+function SearchBar(props) {
   return (
     <div className="container py-8 m-4 p-6">
       <input
@@ -13,8 +8,8 @@ function SearchBar() {
         type="search"
         placeholder="Search..."
         data-testid="searchbar-id"
-        value={term}
-        onChange={handleChange}
+        value={props.input}
+        onChange={props.handleChange}
       />
     </div>
   );
