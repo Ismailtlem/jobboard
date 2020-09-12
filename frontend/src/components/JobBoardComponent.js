@@ -1,6 +1,7 @@
 import React from "react";
 
 const JobBoardComponent = ({ job }) => {
+  //define the tag variable that will contain the tags of the job
   const tags = [job.role, job.level];
   if (job.languages) {
     tags.push(...job.languages);
