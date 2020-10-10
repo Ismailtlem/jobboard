@@ -17,6 +17,14 @@ npm install
 
 You can view your project locally at http://localhost:3000/
 
+## Technologies Used
+
+|  Stack   |       Technology Used        | Hosting  |
+| :------: | :--------------------------: | :------: |
+| Frontend | React, Redux and Tailwindcss | Firebase |
+| Backend  |           Node js            | Firebase |
+| Database |           MongoDB            |          |
+
 ## Deployment
 
 You can deploy your project to firebase by puttin your firebase settings at `src/firebase.js` and running `npm run build && firebase deploy`
