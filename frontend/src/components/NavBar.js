@@ -22,7 +22,7 @@ const NavBar = () => {
             Jobs
           </Link>
           <Link
-            to="/candidate"
+            to="/candidates"
             className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
           >
             Candidates

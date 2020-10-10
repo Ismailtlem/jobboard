@@ -52,7 +52,7 @@ const App = () => {
     <div>
       <Switch>
         <Route path="/" exact component={JobListComponent} />
-        <Route path="/candidate">
+        <Route path="/candidates">
           <Candidate />
         </Route>
       </Switch>
