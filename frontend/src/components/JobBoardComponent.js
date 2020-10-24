@@ -26,7 +26,7 @@ const JobBoardComponent = ({ job }) => {
       >
         <h3 className="font-bold text-blue-500">
           {job.company}
-          {job.isNew && (
+          {job.jobNew && (
             <span className="text-teal-100 bg-teal-500 font-bold m-2 p-1 rounded-full">
               New
             </span>

@@ -16,13 +16,12 @@ const connection = mongoose.connection;
 connection.once("open", () => {
   console.log("MongoDB database connection established successfully");
 });
-/*
+
 const jobsRouter = require("./routes/jobs");
-const candidatesRouter = require("./routes/candidates");
+//const candidatesRouter = require("./routes/candidates");
 
 app.use("/", jobsRouter);
-app.use("/users", candidatesRouter);
-*/
+//app.use("/users", candidatesRouter);
 
 app.listen(port, () => {
   console.log(`server is running on port:${port}`);
