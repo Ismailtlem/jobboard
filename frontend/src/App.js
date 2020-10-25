@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import axios from "axios";
 import JobBoardComponent from "./components/JobBoardComponent";
 import Candidate from "./components/Candidate";
-import data from "./assets/data.json";
+//import data from "./assets/data.json";
 import SearchBar from "./components/SearchBar";
 import NavBar from "./components/NavBar";
 
@@ -20,8 +20,9 @@ const JobListComponent = () => {
 
   //Set the value of jobs
   useEffect(() => {
-    //axios.get("");
-    setJobs(data);
+    axios.get("http://localhost:5000/").then((response) => {
+      setJobs(response.data);
+    });
   }, []);
 
   //return statement
