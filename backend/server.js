@@ -1,3 +1,4 @@
+//defining the libraries needed
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -10,6 +11,8 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 
 app.use(express.json());
+
+//connection to MongoDB
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true });
 const connection = mongoose.connection;
@@ -17,6 +20,7 @@ connection.once("open", () => {
   console.log("MongoDB database connection established successfully");
 });
 
+//Routes : Jobs route and Candidates route
 const jobsRouter = require("./routes/jobs");
 //const candidatesRouter = require("./routes/candidates");
 

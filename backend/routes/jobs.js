@@ -1,3 +1,5 @@
+//defining the routes for /jobs
+
 const router = require("express").Router();
 let Job = require("../models/job.model");
 
