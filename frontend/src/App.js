@@ -20,9 +20,11 @@ const JobListComponent = () => {
 
   //Set the value of jobs
   useEffect(() => {
-    axios.get("http://localhost:5000/").then((response) => {
-      setJobs(response.data);
-    });
+    axios
+      .get("https://glacial-waters-09649.herokuapp.com/")
+      .then((response) => {
+        setJobs(response.data);
+      });
   }, []);
 
   //return statement
