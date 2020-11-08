@@ -31,7 +31,7 @@ const JobListComponent = () => {
   return (
     <div className="App">
       <NavBar />
-      <h1 className="text-6xl"></h1>
+      {/* <h1 className="text-6xl"></h1> */}
       <SearchBar handleChange={handleChange} input={term} />
       {jobs.length === 0 ? (
         <p>Jobs are fetching ...</p>

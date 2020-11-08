@@ -4,32 +4,30 @@ import "./design/NavBar.css";
 
 const NavBar = () => {
   return (
-    <div className="NavBar">
-      <div className="font-sans flex flex-col text-center sm:flex-row sm:text-left sm:justify-between py-4 px-6 bg-white shadow sm:items-baseline w-full">
-        <div className="mb-2 sm:mb-0">
-          <Link
-            href="/home"
-            className="text-2xl no-underline text-grey-darkest hover:text-blue-dark"
-          >
+    <div>
+      <div className="navbar navbar-expand-lg navbar-light bg-light">
+        <ul className="navbar-nav ml-auto d-flex flex-row">
+          {/* <li className="nav-item active m-4">
+          <Link href="/home" className="">
             Home
           </Link>
-        </div>
-        <div>
-          <Link
-            to="/"
-            className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
-          >
-            Jobs
-          </Link>
-          <Link
-            to="/candidates"
-            className="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2"
-          >
-            Candidates
-          </Link>
-        </div>
+        </li> */}
+          <li className="nav-item active m-4 h3 font-weight-bold">
+            <Link to="/" className="">
+              Jobs
+            </Link>
+          </li>
+
+          <li className="nav-item active m-4 h3 font-weight-bold">
+            <Link to="/candidates" className="">
+              Candidates
+            </Link>
+          </li>
+        </ul>
       </div>
-      <h1 className="header">The awesome job board for junior devs</h1>
+      <div class="big-title3 text-center navbarHeader">
+        <h1 class="big_title1">Aweseome job board for junior devs!</h1>
+      </div>
     </div>
   );
 };

@@ -1,63 +1,40 @@
 import React from "react";
 import NavBar from "./NavBar";
+import "./design/Candidate.css";
 
 //Candidate component
 const Candidate = () => {
   return (
     <div className="Candidate">
       <NavBar />
-      <div id="container" className="w-4/5 mx-auto">
-        <div className="flex flex-col sm:flex-row">
-          {/*Card 1 */}
-          <div className="sm:w-1/4 p-2">
-            <div className="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
-              <div className="mb-3">
-                <img
-                  className="w-auto mx-auto rounded-full"
-                  src="./images/avatar-men.jpg"
-                  alt=""
-                />
-              </div>
-              <h2 className="text-xl font-medium text-gray-700">
-                Pande Muliada
-              </h2>
-              <span className="text-blue-500 block mb-5">
-                Front End Developer
-              </span>
-
-              <a
-                href="#"
-                className="px-4 py-2 bg-blue-500 text-white rounded-full"
-              >
-                Hire
-              </a>
-            </div>
+      <div className="container d-flex flex-wrap">
+        <div class="card candidate-style">
+          <img
+            class="card-img-top"
+            src="./images/avatar-men.jpg"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Ismail Tlemcani</h4>
+            <p class="card-text">Fullstack developer</p>
+            <a href="#" class="btn btn-primary">
+              See Profile
+            </a>
           </div>
+        </div>
 
-          {/*Card 2 */}
-          <div className="sm:w-1/4 p-2">
-            <div className="bg-white px-6 py-8 rounded-lg shadow-lg text-center">
-              <div className="mb-3">
-                <img
-                  className="w-auto mx-auto rounded-full"
-                  src="./images/avatar-women.jpg"
-                  alt=""
-                />
-              </div>
-              <h2 className="text-xl font-medium text-gray-700">
-                Saraswati Cahyati
-              </h2>
-              <span className="text-blue-500 block mb-5">
-                Back End Developer
-              </span>
-
-              <a
-                href="#"
-                className="px-4 py-2 bg-blue-500 text-white rounded-full"
-              >
-                Hire
-              </a>
-            </div>
+        <div class="card candidate-style">
+          <img
+            class="card-img-top"
+            src="./images/avatar-women.jpg"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Caroline Test </h4>
+            <p class="card-text">Frontend developer</p>
+            <a href="#" class="btn btn-primary">
+              See Profile
+            </a>
           </div>
         </div>
       </div>

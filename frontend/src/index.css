@@ -12,7 +12,11 @@ code {
     monospace;
 }
 
-.logo {
+.companyLogo {
   width: 88px;
   height: 88px;
+}
+
+.background-blue {
+  background-color: rgb(231, 246, 254);
 }
