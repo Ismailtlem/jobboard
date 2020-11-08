@@ -21,7 +21,7 @@ You can view your project locally at http://localhost:3000/
 
 |  Stack   |       Technology Used        |    Hosting    |
 | :------: | :--------------------------: | :-----------: |
-| Frontend | React, Redux and Tailwindcss |   Firebase    |
+| Frontend | React, Redux and Bootstrap   |   Firebase    |
 | Backend  |           Node js            |    Heroku     |
 | Database |           MongoDB            | MongoDB Atlas |
 
