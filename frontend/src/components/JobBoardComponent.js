@@ -23,9 +23,9 @@ const JobBoardComponent = ({ job }) => {
 
       <div
         data-testid="job-details"
-        className="d-flex flex-wrap  flex-column justify-content-between ml-4"
+        className="d-flex flex-wrap flex-column justify-content-between ml-4"
       >
-        <h3 className="font-weight-bold text-primary m-2">
+        <h3 className="font-weight-bold text-primary">
           {job.company}
           {job.jobNew && (
             <span className="h5 text-white bg-success m-4 p-1 rounded-pill">
