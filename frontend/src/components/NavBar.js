@@ -7,13 +7,13 @@ const NavBar = () => {
     <div>
       <div className="navbar navbar-expand-lg navbar-light navbar-menu">
         <ul className="navbar-nav ml-auto d-flex flex-row">
-          <li className="nav-item active m-4 h3 font-weight-bold">
+          <li className="nav-item active m-4 h4 font-weight-bold">
             <Link to="/" className="">
               Jobs
             </Link>
           </li>
 
-          <li className="nav-item active m-4 h3 font-weight-bold">
+          <li className="nav-item active m-4 h4 font-weight-bold">
             <Link to="/candidates" className="">
               Candidates
             </Link>
