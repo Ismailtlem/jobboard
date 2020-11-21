@@ -1,22 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.companyLogo {
+/* Company logo size */
+.company-logo {
   width: 88px;
   height: 88px;
 }
 
+/* Blue background of the app */
 .background-blue {
   background-color: rgb(231, 246, 254);
+}
+
+/* Navbar Header Style */
+.navbar-header {
+  padding: 60px;
+  background: #202222;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* Navbar Menu Style */
+.navbar-menu {
+  background: rgb(231, 246, 254);
+}
+
+/* Candidate Style */
+.candidate-style {
+  width: 400px;
+  margin: 35px;
+  position: relative;
 }

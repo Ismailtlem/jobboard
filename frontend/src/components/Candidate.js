@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "./NavBar";
-import "./design/Candidate.css";
 
 //Candidate component
 const Candidate = () => {

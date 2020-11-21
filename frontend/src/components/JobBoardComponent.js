@@ -10,6 +10,7 @@ const JobBoardComponent = ({ job }) => {
     tags.push(...job.tools);
   }
 
+  //define the JobBoard component
   return (
     <div className="d-flex flex-wrap bg-white shadow m-4 p-6 rounded">
       <div>
@@ -17,7 +18,7 @@ const JobBoardComponent = ({ job }) => {
           data-testid="company-logo"
           src={job.logo}
           alt={job.company}
-          className="m-2 p-2 companyLogo"
+          className="m-2 p-2 company-logo"
         />
       </div>
 

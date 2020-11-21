@@ -1,6 +1,7 @@
 import React from "react";
 
-function SearchBar(props) {
+//SearchBar component
+const SearchBar = (props) => {
   return (
     <div className="container">
       <br />
@@ -31,6 +32,6 @@ function SearchBar(props) {
       </div>
     </div>
   );
-}
+};
 
 export default SearchBar;

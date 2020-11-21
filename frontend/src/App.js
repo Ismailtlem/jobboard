@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 import axios from "axios";
 import JobBoardComponent from "./components/JobBoardComponent";
 import Candidate from "./components/Candidate";
-//import data from "./assets/data.json";
 import SearchBar from "./components/SearchBar";
 import NavBar from "./components/NavBar";
 
@@ -31,7 +30,6 @@ const JobListComponent = () => {
   return (
     <div className="App">
       <NavBar />
-      {/* <h1 className="text-6xl"></h1> */}
       <SearchBar handleChange={handleChange} input={term} />
       {jobs.length === 0 ? (
         <p>Jobs are fetching ...</p>
