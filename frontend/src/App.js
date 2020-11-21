@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import axios from "axios";
-import JobBoardComponent from "./components/JobBoardComponent";
+import JobBoard from "./components/JobBoard";
 import Candidate from "./components/Candidate";
 import SearchBar from "./components/SearchBar";
 import NavBar from "./components/NavBar";
@@ -41,7 +41,7 @@ const JobListComponent = () => {
               .toLowerCase()
               .includes(term.toString().toLowerCase())
           ) {
-            return <JobBoardComponent job={job} key={job.id} />;
+            return <JobBoard job={job} key={job.id} />;
           }
         })
       )}

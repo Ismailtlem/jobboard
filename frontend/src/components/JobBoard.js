@@ -1,6 +1,6 @@
 import React from "react";
 
-const JobBoardComponent = ({ job }) => {
+const JobBoard = ({ job }) => {
   //define the tag variable that will contain the tags of the job
   const tags = [job.role, job.level];
   if (job.languages) {
@@ -58,4 +58,4 @@ const JobBoardComponent = ({ job }) => {
   );
 };
 
-export default JobBoardComponent;
+export default JobBoard;
