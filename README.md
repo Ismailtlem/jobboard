@@ -19,11 +19,15 @@ You can view your project locally at http://localhost:3000/
 
 ## Technologies Used
 
-|  Stack   |       Technology Used        |    Hosting    |
-| :------: | :--------------------------: | :-----------: |
-| Frontend | React, Redux and Bootstrap   |   Firebase    |
-| Backend  |           Node js            |    Heroku     |
-| Database |           MongoDB            | MongoDB Atlas |
+|  Stack   |      Technology Used       |    Hosting    |
+| :------: | :------------------------: | :-----------: |
+| Frontend | React, Redux and Bootstrap |   Firebase    |
+| Backend  |          Node js           |    Heroku     |
+| Database |          MongoDB           | MongoDB Atlas |
+
+## Mongo Atlas
+
+Create a file .env on the backend folder and copy the Mongo Atlas key there
 
 ## Deployment
 
