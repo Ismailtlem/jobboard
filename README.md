@@ -32,3 +32,4 @@ Create a file .env on the backend folder and copy the Mongo Atlas key there
 ## Deployment
 
 You can deploy your project to firebase by puttin your firebase settings at `src/firebase.js` and running `npm run build && firebase deploy`
+
